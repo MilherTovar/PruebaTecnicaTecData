@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "7b94d3bf-07d4-4a9f-977a-fb14b87b3ea0",
+		"name": "PruebaTecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504881"
+	},
+	"item": [
+		{
+			"name": "searchByParams",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApplication\":\"2023-06-10T14:31:27\",\r\n    \"productId\":1,\r\n    \"brandId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/search/searchByParam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"search",
+						"searchByParam"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
